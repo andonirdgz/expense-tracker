@@ -23,13 +23,11 @@ function App() {
     },
   ];
 
-  console.log(expenses);
-
   return (
     <div>
       <h2>Hello</h2>
       <p>This is also visible</p>
-      <Expenses props={expenses} />
+      <Expenses expenses={expenses} />
     </div>
   );
 }
